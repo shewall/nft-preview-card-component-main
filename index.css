@@ -1,0 +1,106 @@
+body {
+  background: hsl(219, 53%, 12%);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+}
+.card {
+  box-sizing: border-box;
+  background: hsl(216, 50%, 16%);
+  padding: 20px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  text-align: left;
+}
+
+.description {
+  color: hsl(215, 28%, 37%);
+  font-size: 15px;
+
+  text-align: left;
+}
+.diamond {
+  width: 11 height18;
+}
+
+h2 {
+  float: right;
+  padding: 0 20px 0 0;
+  color: hsl(183, 65%, 44%);
+  font-size: 12px;
+}
+
+.clock {
+  width: 17;
+  height: 17;
+}
+
+p {
+  float: right;
+  color: hsl(215, 28%, 37%);
+  font-size: 13px;
+}
+hr {
+  width: 100%;
+  border-style: solid;
+  color: hsl(215, 28%, 37%);
+  border-width: 0.5px;
+}
+
+img {
+  width: 100%;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.eth-label {
+  color: hsl(183, 65%, 44%);
+}
+.clock-label {
+  color: hsl(215, 28%, 37%);
+}
+
+.icon-label {
+  margin-left: 5px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-footer p {
+  margin-left: 15px;
+}
+
+.card-footer p span {
+  color: white;
+}
